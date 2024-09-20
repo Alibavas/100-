@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-card {
+    background-color: #5f59f7;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+.result-card .score {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.result-card .score .out-of {
+    font-size: 20px;
+}
+
+.summary-card {
+    width: 50%;
+}
+
+.summary-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.summary-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.summary-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.summary-list .label {
+    font-weight: bold;
+    color: #777;
+}
+
+.summary-list .value {
+    font-weight: bold;
+}
+
+.continue-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.continue-btn:hover {
+    background-color: #333;
+}
